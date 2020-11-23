@@ -48,4 +48,4 @@ const main = () => {
   return minJumps(arr);
 }
 
-main();
+// console.log(main());
