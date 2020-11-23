@@ -45,7 +45,7 @@ const minJumps = function (arr) {
 
 const main = () => {
   const arr = [100,-23,-23,404,100,23,23,23,3,404];
-  console.log(minJumps(arr));
+  return minJumps(arr);
 }
 
 main();
