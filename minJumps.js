@@ -3,15 +3,12 @@
  * @return {number}
  */
 const minJumps = function (arr) {
-
-
+  
   const map = arr.reduce((acc, num, index) => {
     acc[num] = acc[num] || [];
     acc[num].push(index);
     return acc;
   }, {});
-  console.log(map);
-
 
   let current = [0];
   const visited = {
